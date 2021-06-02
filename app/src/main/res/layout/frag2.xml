@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="관부가세\n"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="40sp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="의류기준 미국 $200, 그 외 국가 $150 이상 구매시 관부가세가 붙음\n
+관세 : 13%\n
+부가세 10%\n
+\n
+관세 면제 조건\n\n
+1. 한국-EU FTA\n\n
+EU와 영국은 전환기간 만료 후 통관·검역 및 관세 등을 한시적으로 면제하는데 합의
+EU 탈퇴협정 이행에 관한 EU-영국 공동위원회는 8일(화) 이른바
+'신뢰교역자제도(trusted trader scheme)'를 도입, 98% 품목의 관세를 면제하고
+2% 품목은 관세부과한 후 환급키로 합의
+신뢰교역자제도는 이번 합의 발효일로부터 3년 6개월 후 재검토할 예정\n\n
+
+EU협정국 : 네덜란드, 독일, 룩셈부르크, 벨기에, 이탈리아, 프랑스, 덴마크, 아일랜드,
+그리스, 스페인 ,포르투갈, 스웨덴, 오스트리아, 핀란드, 라트비아, 라투아니아, 몰타,
+슬로바키아, 슬로베니아, 에스토니아, 체코, 키프로스, 폴란드, 헝가리, 루마니아 불가리아, 크로아티아\n
+\n
+2. INVOICE(명세서)에 원산지 표기가 되어야 함\n
+            "
+            android:textColor="#3E3E3E"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:textColorLink="#0027FF"
+            android:text="https://blog.naver.com/hsamerica1/220280369959\n"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#3E3E3E"
+            android:text="위의 블로그에 있는 양식을 구매 사이트에 제출하여 INVOICE 내부에 원산지 표기되도록 하면 된다.\n"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#3E3E3E"
+            android:text="이후 개인통관고유부호를 물어보기 위해서 구매자에게 연락이 왔을 때
+인보이스와 카드 결제 내역서를 보여준 후 한국-EU FTA적용신청을 요청하면 된다.\n"></TextView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="270dp"
+            android:maxHeight="270dp"
+            android:src="@drawable/fta"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#3E3E3E"
+            android:text="\n위의 양식은 실제로 외국에 직접 방문하여 의류를 구매할 때 해당 매장에서 작성해주면 관세를 면제받을 수 있는 서류이다.\n\n "
+            android:textSize="10dp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\n배대지\n"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="40sp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#3E3E3E"
+            android:text="배대지 : 해외 사이트는 한국으로 직배송 해주지 않는 곳이 많이 있기 때문에
+해당되는 국가에 택배를 받는 곳을 설립하여 그곳에서 그 택배를 한국으로 보내주는
+배송 중개 업체를 말한다. 영국과 미국을 주로 이용한다."
+            android:textSize="15dp"
+            ></TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:layout_marginLeft="10dp"
+                android:maxWidth="200dp"
+                android:maxHeight="200dp"
+                android:src="@drawable/uk"></ImageView>
+
+            <ImageView
+                android:layout_width="233dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:maxWidth="200dp"
+                android:maxHeight="200dp"
+                android:src="@drawable/uk1"></ImageView>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="영국 배대지 양식\n"
+            android:textColor="#3E3E3E"
+            android:gravity="center"
+            android:textSize="10dp"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:layout_marginLeft="10dp"
+                android:maxWidth="200dp"
+                android:maxHeight="200dp"
+                android:src="@drawable/usa"></ImageView>
+
+            <ImageView
+                android:layout_width="233dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:maxWidth="200dp"
+                android:maxHeight="200dp"
+                android:src="@drawable/usa1"></ImageView>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="마국 배대지 양식\n"
+            android:textColor="#3E3E3E"
+            android:gravity="center"
+            android:textSize="10dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nEU, UK, US 신발사이즈\n"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="40sp">
+
+        </TextView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="200dp"
+            android:maxHeight="200dp"
+            android:src="@drawable/man"
+            ></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="남성 발 사이즈\n"
+            android:textColor="#3E3E3E"
+            android:gravity="center"
+            android:textSize="10dp"></TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+
+            android:maxWidth="200dp"
+            android:maxHeight="200dp"
+            android:src="@drawable/lady"
+            ></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="여성 발 사이즈\n"
+            android:gravity="center"
+            android:textColor="#3E3E3E"
+            android:textSize="10dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="조던은 본인 발 사이즈에서 5mm 업 해서 신는 것이 가장 좋다."
+            android:textColor="#3E3E3E"
+            android:textSize="15dp"></TextView>
+    </LinearLayout>
+</ScrollView>

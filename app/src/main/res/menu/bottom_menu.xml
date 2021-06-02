@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_airplane"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_all_inclusive_24"
+        android:title = "응모 정보"></item>
+    <item
+        android:id="@+id/action_airplane1"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_ballot_24"
+        android:title = "정보 게시판"></item>
+    <item
+        android:id="@+id/action_airplane2"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_art_track_24"
+        android:title = "자유 게시판"></item>
+
+</menu>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "232058458540",
+    "firebase_url": "https://pythonfire-3eb72-default-rtdb.firebaseio.com",
+    "project_id": "pythonfire-3eb72",
+    "storage_bucket": "pythonfire-3eb72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232058458540:android:5915ccf00a1677140d6a09",
+        "android_client_info": {
+          "package_name": "com.example.pythonfire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232058458540-1jetiau4dn62aui0487bujscub7jm96h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pythonfire",
+            "certificate_hash": "452b9fd1fb370e7e54b182be60c0fed0bc3e6d94"
+          }
+        },
+        {
+          "client_id": "232058458540-f6q53f53aorv5mit4g0c9vtmds3kadj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2yfgDDBP75SGg5QfkMwZWyBdadCLl_wA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232058458540-f6q53f53aorv5mit4g0c9vtmds3kadj3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
